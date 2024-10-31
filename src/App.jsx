@@ -45,7 +45,7 @@ import { Button } from 'react-bootstrap';
             <input type="text" placeholder="Name" required />
             <input type="email" placeholder="Email" required />
             <textarea placeholder="Message" required></textarea>
-            <Button className='' style={{marginTop:"280px"}}>Send Message</Button>
+            <Button className='' style={{marginTop:"300px"}}>Send Message</Button>
           </form>    
   
         </div>
