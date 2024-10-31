@@ -1,0 +1,36 @@
+/* ImageSlider.css */
+.slider {
+    position: relative;
+    max-width: 500px; /* Adjust as needed */
+    margin: 20px auto; /* Center the slider */
+    margin-top: 300px;
+    margin-bottom: 40px;
+  }
+  
+  .slide {
+    width: 500px;
+    height: 600px; 
+    display: block;
+    border-radius: 10px; /* Optional styling */
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(180, 168, 168, 0.5);
+    color: rgb(8, 2, 2);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
